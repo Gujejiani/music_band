@@ -107,3 +107,7 @@
     font-size: 20px;
   }
 }
+
+.last img {
+  margin: 0 5px;
+}
