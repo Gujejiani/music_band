@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --textColor: #707070;
+}
+.header {
+  position: fixed;
+}
+body {
+  color: var(--textColor);
+}
+.nav_flex {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding: 0 140px 0 140px;
+}
+
+.nav_flex ul {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+}
+.nav_flex ul a {
+  color: var(--textColor);
+  font-size: 20px;
+}
+.logo {
+  width: 122px;
+}
+
+.main_section {
+  padding: 0 140px 0 140px;
+}
+
+.main_img {
+  width: 100%;
+  background-image: url("../images/სლაიდერი3.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  background-position: center center;
+}
+.first_section {
+  margin-top: 122px;
+}
+.first_section h3 {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+.flex_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.flex_img {
+  width: 100%;
+  height: 280px;
+  background-image: url("../images/img-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid #707070;
+}
+.img-2 {
+  background-image: url("../images/img-2.jpg");
+}
+.img-3 {
+  background-image: url("../images/img-3.jpg");
+}
+.img-4 {
+  background-image: url("../images/img-4.jpg");
+}
+.img-5 {
+  background-image: url("../images/img-5.jpg");
+}
+.img-6 {
+  background-image: url("../images/img-6.jpg");
+}
+
+.flex_items h4 {
+  margin: 20px 0 30px 2px;
+  font-size: 20px;
+}
+.flex_items p {
+  margin-left: 2px;
+}
+
+.flex-item {
+  position: relative;
+  max-width: 480px;
+  height: 560px;
+}
+.more {
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+}
+
+.loadMore {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 25px;
+}
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.footer-Items {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.parrent {
+  font-size: 20px;
+}
+.parrent p {
+  margin: 3px 0;
+}
+
+.dektop_hide_mob-show {
+  display: none;
+}
+#footer_logo {
+  color: #fff !important;
+}
